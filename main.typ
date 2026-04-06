@@ -858,71 +858,6 @@ Committee lockups follow the exact same construction and clear-space rules as th
   ]
 )
 
-#pagebreak()
-
-#grid(
-  columns: (1fr, 2fr),
-  gutter: 10em,
-  
-  [
-    #v(1fr)
-    === Committee Sub-Brands
-    
-    #committee_subbrands_desc
-  ],
-  
-  [
-    #block(height: 100%)[
-      #grid(
-        columns: (1fr, 1fr, 1fr),
-        rows: (1fr, 1fr),
-        gutter: 1em,
-        
-        block(fill: white, stroke: 1pt + cursor-white, width: 100%, height: 100%, inset: 1.5em, radius: 4pt)[
-          #text(size: size-small, weight: weight-h1, fill: color-muted)[ICON (RECOLOR)]
-          #v(1fr)
-          #align(center + horizon)[
-            #image("images/logos/UPCURSOR_MainLogo_ExternalAffairs_Recolor_Transparent.svg", width: 60%)
-          ]
-          #v(1fr)
-        ],
-        
-        block(fill: white, stroke: 1pt + cursor-white, width: 100%, height: 100%, inset: 1.5em, radius: 4pt)[
-          #text(size: size-small, weight: weight-h1, fill: color-muted)[ICON (UNIQUE)]
-          #v(1fr)
-          #align(center + horizon)[
-            #image("images/logos/UPCURSOR_ExternalAffairsUnique_FullColor_Transparent.svg", width: 60%)
-          ]
-          #v(1fr)
-        ],
-        
-        block(fill: white, stroke: 1pt + cursor-white, width: 100%, height: 100%, inset: 1.5em, radius: 4pt)[
-          #text(size: size-small, weight: weight-h1, fill: color-muted)[VERTICAL]
-          #v(1fr)
-          #align(center + horizon)[
-            #image("images/logos/UPCURSOR_MainLogo_ExternalAffairs_RecolorVertical_Transparent.svg", width: 70%)
-          ]
-          #v(1fr)
-        ],
-        
-        grid.cell(colspan: 3)[
-          #block(fill: white, stroke: 1pt + cursor-white, width: 100%, height: 100%, inset: 1.5em, radius: 4pt)[
-            #text(size: size-small, weight: weight-h1, fill: color-muted)[HORIZONTAL]
-            #v(1fr)
-            #align(center + horizon)[
-              // Placeholder for the wide horizontal committee lockup
-              #image("images/logos/UPCURSOR_MainLogo_ExternalAffairs_RecolorHorizontal_Transparent.svg", height: 20%)
-            ]
-            #v(1fr)
-          ]
-        ]
-      )
-    ]
-  ]
-)
-
-#pagebreak()
-
 #grid(
   columns: (1fr, 2fr),
   gutter: 10em,
@@ -1134,7 +1069,7 @@ Committee lockups follow the exact same construction and clear-space rules as th
           #text(size: size-small, weight: weight-h1, fill: color-muted)[ICON (RECOLOR)]
           #v(1fr)
           #align(center + horizon)[
-            #image("images/logos/UPCURSOR_MainLogo_Membership_Recolor_Transparent.svg", width: 60%)
+            #image("images/logos/UPCURSOR_MainLogo_Records_Recolor_Transparent.svg", width: 60%)
           ]
           #v(1fr)
         ],
@@ -1143,7 +1078,7 @@ Committee lockups follow the exact same construction and clear-space rules as th
           #text(size: size-small, weight: weight-h1, fill: color-muted)[ICON (UNIQUE)]
           #v(1fr)
           #align(center + horizon)[
-            #image("images/logos/UPCURSOR_MembershipUnique_FullColor_Transparent.svg", width: 60%)
+            #image("images/logos/UPCURSOR_RecordsUnique_FullColor_Transparent.svg", width: 60%)
           ]
           #v(1fr)
         ],
@@ -1152,7 +1087,7 @@ Committee lockups follow the exact same construction and clear-space rules as th
           #text(size: size-small, weight: weight-h1, fill: color-muted)[VERTICAL]
           #v(1fr)
           #align(center + horizon)[
-            #image("images/logos/UPCURSOR_MainLogo_Membership_RecolorVertical_Transparent.svg", width: 70%)
+            #image("images/logos/UPCURSOR_MainLogo_Records_RecolorVertical_Transparent.svg", width: 70%)
           ]
           #v(1fr)
         ],
@@ -1163,7 +1098,70 @@ Committee lockups follow the exact same construction and clear-space rules as th
             #v(1fr)
             #align(center + horizon)[
               // Placeholder for the wide horizontal committee lockup
-              #image("images/logos/UPCURSOR_MainLogo_Membership_RecolorHorizontal_Transparent.svg", height: 20%)
+              #image("images/logos/UPCURSOR_MainLogo_Records_RecolorHorizontal_Transparent.svg", height: 20%)
+            ]
+            #v(1fr)
+          ]
+        ]
+      )
+    ]
+  ]
+)
+
+#pagebreak()
+
+#grid(
+  columns: (1fr, 2fr),
+  gutter: 10em,
+  
+  [
+    #v(1fr)
+    === Committee Sub-Brands
+    
+    #committee_subbrands_desc
+  ],
+  
+  [
+    #block(height: 100%)[
+      #grid(
+        columns: (1fr, 1fr, 1fr),
+        rows: (1fr, 1fr),
+        gutter: 1em,
+        
+        block(fill: white, stroke: 1pt + cursor-white, width: 100%, height: 100%, inset: 1.5em, radius: 4pt)[
+          #text(size: size-small, weight: weight-h1, fill: color-muted)[ICON (RECOLOR)]
+          #v(1fr)
+          #align(center + horizon)[
+            #image("images/logos/UPCURSOR_MainLogo_Executive_Recolor_Transparent.svg", width: 60%)
+          ]
+          #v(1fr)
+        ],
+        
+        block(fill: white, stroke: 1pt + cursor-white, width: 100%, height: 100%, inset: 1.5em, radius: 4pt)[
+          #text(size: size-small, weight: weight-h1, fill: color-muted)[ICON (UNIQUE)]
+          #v(1fr)
+          #align(center + horizon)[
+            #image("images/logos/UPCURSOR_ExecutiveUnique_FullColor_Transparent.svg", width: 60%)
+          ]
+          #v(1fr)
+        ],
+        
+        block(fill: white, stroke: 1pt + cursor-white, width: 100%, height: 100%, inset: 1.5em, radius: 4pt)[
+          #text(size: size-small, weight: weight-h1, fill: color-muted)[VERTICAL]
+          #v(1fr)
+          #align(center + horizon)[
+            #image("images/logos/UPCURSOR_MainLogo_Executive_RecolorVertical_Transparent.svg", width: 70%)
+          ]
+          #v(1fr)
+        ],
+        
+        grid.cell(colspan: 3)[
+          #block(fill: white, stroke: 1pt + cursor-white, width: 100%, height: 100%, inset: 1.5em, radius: 4pt)[
+            #text(size: size-small, weight: weight-h1, fill: color-muted)[HORIZONTAL]
+            #v(1fr)
+            #align(center + horizon)[
+              // Placeholder for the wide horizontal committee lockup
+              #image("images/logos/UPCURSOR_MainLogo_Executive_RecolorHorizontal_Transparent.svg", height: 20%)
             ]
             #v(1fr)
           ]
