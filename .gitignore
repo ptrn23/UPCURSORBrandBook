@@ -1,0 +1,9 @@
+# Ignore compiled PDFs
+*.pdf
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore VS Code workspace settings (optional)
+.vscode/
