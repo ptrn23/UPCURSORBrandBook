@@ -376,3 +376,15 @@
     #desc
   ]
 }
+
+#let wireframe(w: 100%, h: 100%, label: "") = {
+  block(
+    width: w,
+    height: h,
+    fill: cursor-white,
+    stroke: (paint: color-muted, thickness: 1pt, dash: "dashed"),
+    align(center + horizon)[
+      #text(fill: color-muted, weight: "bold", size: size-small)[#label]
+    ]
+  )
+}
