@@ -1917,13 +1917,23 @@ Committee lockups follow the exact same construction and clear-space rules as th
 // ==========================================
 = The Guide
 
-== Stationery
-
-== Digital Media
-
-== Print Media
-
-== Presentations
+#grid(
+  columns: (1fr, 2fr),
+  gutter: 10em,
+  
+  [
+    #v(1fr)
+    == Letters
+    #v(1fr)
+  ],
+  [
+    #block(width: 100%, height: 100%)[
+      #align(right + horizon)[
+        #image("images/templates/letter.jpg", height: 100%)
+      ]
+    ]
+  ]
+)
 
 #pagebreak()
 
