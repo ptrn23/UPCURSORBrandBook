@@ -1975,6 +1975,49 @@ Committee lockups follow the exact same construction and clear-space rules as th
 
 #pagebreak()
 
+== Print Media
+#v(2em)
+
+#grid(
+  columns: (1fr, 1fr, 1fr),
+  gutter: 2em,
+  
+  [
+    #text(size: size-small, weight: "bold", fill: color-muted)[VERTICAL BANNER (2 x 5 ft)]
+    #v(1em)
+    // 2:5 aspect ratio
+    #wireframe(w: 136pt, h: 340pt, label: "2:5")
+  ],
+  [
+    #text(size: size-small, weight: "bold", fill: color-muted)[HORIZONTAL BANNER (6 x 3 ft)]
+    #v(1em)
+    // 6:3 (or 2:1) aspect ratio
+    #wireframe(w: 200pt, h: 100pt, label: "6:3")
+    
+    #v(2em)
+    
+    #text(size: size-small, weight: "bold", fill: color-muted)[STANDARD A4 POSTER (210 x 297 mm)]
+    #v(1em)
+    // Kept to strict A4 proportions (1:1.414)
+    #wireframe(w: 120pt, h: 170pt, label: "A4")
+  ],
+  [
+    #text(size: size-small, weight: "bold", fill: color-muted)[LETTER / CERTIFICATE (8.5 x 11 in)]
+    #v(1em)
+    // 8.5:11 aspect ratio
+    #wireframe(w: 120pt, h: 155pt, label: "Letter")
+    
+    #v(2em)
+    
+    #text(size: size-small, weight: "bold", fill: color-muted)[EVENT ID BADGE (3 x 4 in)]
+    #v(1em)
+    // 3:4 aspect ratio
+    #wireframe(w: 90pt, h: 120pt, label: "3:4")
+  ]
+)
+
+#pagebreak()
+
 
 // ==========================================
 // 5. THE GOVERNANCE
