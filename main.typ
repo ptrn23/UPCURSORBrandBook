@@ -23,6 +23,32 @@
 
 #pagebreak()
 
+#v(12em)
+
+#text(font: font-heading, size: size-h2, fill: cursor-green, weight: weight-h2)[TABLE OF CONTENTS]
+
+#show outline.entry.where(level: 1): it => {
+  v(1.5em, weak: true)
+  set text(font: font-heading, weight: "extrabold")
+  it
+}
+
+#show outline.entry.where(level: 2): it => {
+  v(0.8em, weak: true)
+  set text(font: font-body, weight: "regular")
+  it
+}
+
+#columns(2)[
+  #outline(
+    title: none,
+    depth: 2,
+    indent: 1em
+  )
+]
+
+#pagebreak()
+
 // ==========================================
 // 1. THE ORGANIZATION
 // ==========================================
