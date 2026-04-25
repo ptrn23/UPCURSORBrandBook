@@ -2024,19 +2024,31 @@ Committee lockups follow the exact same construction and clear-space rules as th
 // ==========================================
 = The Governance
 
-== Brand Usage Rules
+#v(1em)
 
-=== Licensing & Legal
+== External Brand Guide
 
-=== Asset Locations
++ *PLEASE AVOID MODIFYING THE CURSOR LOGO.* \
+  The structural integrity of the logo components must be kept intact at all times. Kindly use the provided master image files as is, and refer to the _Primary Lockups_ and _Color Variations_ sections in Chapter 2 when choosing the appropriate variant to use.
+
++ *PLEASE KEEP OUR ABBREVIATED NAME FULLY CAPITALIZED.* \
+  For the sake of consistency, when referring to our organization using its abbreviation, *"UP CURSOR"*, kindly keep it in all capital letters. The full name of the organization (UP Association of Computer Science Majors) need not be written in all caps.
+
+For any questions or concerns regarding external usage, feel free to contact our designated Information and Public Relations representative. We thank you for your time and consideration.
+
+#v(2em)
 
 == Approval Process
 
-=== Who Approves New Materials?
+Maintaining the integrity of the UP CURSOR brand is a collective effort. Should there be a need to update, modify, or add to the guidelines set within this Brand Book, the following strict version-control protocol must be observed:
 
-=== When is Consultation Needed?
++ Any organization member or alumnus may contact the current Information and Public Relations Committee Head to propose a brand adjustment or addition.
++ The Information and Public Relations Head will formally raise the proposal during an Executive Committee meeting to be reviewed and decided upon.
++ If the Executive Committee determines that the proposed change is significant, an org-wide consensus will be required before proceeding.
++ Once approved, the necessary adjustments will be executed. This includes updating the official Brand Book source code in the Typst GitHub repository.
++ The current Information and Public Relations Committee Head will submit a Pull Request (PR) to the repository and contact the Brand Book 2.0 Lead Architect. The Lead Architect will review the code for formatting and structural integrity before officially approving and merging the update into the master branch.
 
-== Contact Info
+#v(2em)
 
 #pagebreak()
 
