@@ -76,6 +76,7 @@
     
     footer: context {
       let current-page = here().page()
+      if current-page == 2 { return none }
       let all-h1 = query(selector(heading.where(level: 1)))
 
       let is-divider = all-h1.filter(h => h.location().page() == current-page).len() > 0
