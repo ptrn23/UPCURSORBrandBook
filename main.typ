@@ -2070,7 +2070,7 @@ Please ensure you are logged into an organization-authorized UP Mail (`@up.edu.p
   columns: (1fr, 1fr),
   gutter: 2em,
   row-gutter: 2em,
-  
+
   asset-folder(
     name: "The Essentials",
     desc: "The most commonly used main logos in standard sizes (SVG and PNG) alongside the main UP CURSOR fonts.",
@@ -2146,8 +2146,15 @@ Please ensure you are logged into an organization-authorized UP Mail (`@up.edu.p
 
 == Contact Info
 
-For repository access, technical questions regarding the Typst source code, or final PR approvals, please reach out to the Brand Book 2.0 Lead Architect:
+#grid(
+  columns: (1fr, 1fr),
+  gutter: 2em,
+  row-gutter: 2em,
 
-*Brand Book 2.0 Lead Architect* \
-Paul Timothy R. Necasio \
-#link("https://facebook.com/paultimothy.necasio")[facebook.com/paultimothy.necasio]
+  asset-folder(
+    name: "Brand Book 2.0 Lead Architect",
+    desc: "For repository access, technical questions regarding the Typst source code, or final PR approvals, please reach out to Paul Timothy R. Necasio, the Brand Book 2.0 Lead Architect.",
+    path: "facebook.com/paultimothy.necasio",
+    target: "https://facebook.com/paultimothy.necasio" 
+  )
+)
