@@ -419,7 +419,7 @@
     
     To maintain structural harmony, the UP CURSOR logo relies on a strict internal measuring system based on its own typography.
     
-    *The Gap Rule:* The precise distance between the cursor emblem and the logotype—in both the horizontal and vertical lockups—is exactly equal to the width of the letter *“U”* in the logotype. 
+    *The Gap Rule:* The precise distance between the cursor emblem and the logotype, in both the horizontal and vertical lockups, is exactly equal to the width of the letter *“U”* in the logotype. 
     
     This ensures that the mark and the text always feel connected as a single unit, without crowding each other or drifting too far apart. Do not attempt to recreate this lockup manually; always use the provided master files.
   ],
@@ -2076,12 +2076,14 @@ Committee lockups follow the exact same construction and clear-space rules as th
 == External Brand Guide
 
 + *PLEASE AVOID MODIFYING THE CURSOR LOGO.* \
+
   The structural integrity of the logo components must be kept intact at all times. Kindly use the provided master image files as is, and refer to the _Primary Lockups_ and _Color Variations_ sections in Chapter 2 when choosing the appropriate variant to use.
 
 + *PLEASE KEEP OUR ABBREVIATED NAME FULLY CAPITALIZED.* \
+
   For the sake of consistency, when referring to our organization using its abbreviation, *"UP CURSOR"*, kindly keep it in all capital letters. The full name of the organization (UP Association of Computer Science Majors) need not be written in all caps.
 
-For any questions or concerns regarding external usage, feel free to contact our designated Information and Public Relations representative. We thank you for your time and consideration.
+For any questions or concerns regarding external usage, feel free to contact our designated Information and Public Relations Committee representative. We thank you for your time and consideration.
 
 #v(2em)
 
@@ -2091,7 +2093,7 @@ Maintaining the integrity of the UP CURSOR brand is a collective effort. Should 
 
 + Any organization member or alumnus may contact the current Information and Public Relations Committee Head to propose a brand adjustment or addition.
 + The Information and Public Relations Head will formally raise the proposal during an Executive Committee meeting to be reviewed and decided upon.
-+ If the Executive Committee determines that the proposed change is significant, an org-wide consensus will be required before proceeding.
++ If the Executive Committee determines that the proposed change is significant, an org-wide consensus will be required before proceeding. Otherwise, the Executive Committee can approve minor adjustments directly.
 + Once approved, the necessary adjustments will be executed. This includes updating the official Brand Book source code in the Typst GitHub repository.
 + The current Information and Public Relations Committee Head will submit a Pull Request (PR) to the repository and contact the Brand Book 2.0 Lead Architect. The Lead Architect will review the code for formatting and structural integrity before officially approving and merging the update into the master branch.
 
@@ -2106,8 +2108,6 @@ Maintaining the integrity of the UP CURSOR brand is a collective effort. Should 
 = The Assets
 
 == Quick Links
-
-#v(1em)
 
 Please ensure you are logged into an organization-authorized UP Mail (`@up.edu.ph`) to access these Google Drive directories. 
 
@@ -2134,7 +2134,7 @@ Please ensure you are logged into an organization-authorized UP Mail (`@up.edu.p
 
   asset-folder(
     name: "Committee Sub-Brands",
-    desc: "All unique icons and recolored lockups for the seven UP CURSOR committees (also with the Executive Committee).",
+    desc: "All unique icons and recolored lockups for the seven UP CURSOR committees (along with the Executive Committee).",
     path: "~/[RESOURCES]/3_COMMITTEES_LOGOS",
     target: "https://drive.google.com/drive/folders/1WrFF7hCShd-IZs4WqynBeUTRjhgHM6kD?usp=drive_link" 
   ),
@@ -2200,7 +2200,7 @@ Please ensure you are logged into an organization-authorized UP Mail (`@up.edu.p
 
   asset-folder(
     name: "Brand Book 2.0 Lead Architect",
-    desc: "For repository access, technical questions regarding the Typst source code, or final PR approvals, please reach out to Paul Timothy R. Necasio, the Brand Book 2.0 Lead Architect.",
+    desc: "For repository access, technical questions regarding the Typst source code, or final PR approvals, please reach out to Paul Timothy Necasio, the Brand Book 2.0 Lead Architect.",
     path: "facebook.com/paultimothy.necasio",
     target: "https://facebook.com/paultimothy.necasio" 
   )
