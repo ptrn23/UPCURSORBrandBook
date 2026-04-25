@@ -2,6 +2,27 @@
 
 #show: brandbook.with(title: "UP CURSOR Brand Book 2.0")
 
+#page(
+  fill: cursor-green, 
+  margin: 0pt, 
+  header: none, 
+  footer: none
+)[
+  #block(width: 100%, height: 100%, inset: 4em)[
+    #align(center + horizon)[
+      #image("images/logos/UPCURSOR_MainLogo_CURSORGreen_Transparent.svg", width: 45%)
+      
+      #v(4em)
+      
+      #text(font: font-title, size: 64pt, weight: "bold", fill: white)[Brand Book] \
+      #v(-0.5em)
+      #text(font: font-heading, size: 24pt, weight: "extrabold", tracking: 6pt, fill: cursor-white)[VERSION 2.0]
+    ]
+  ]
+]
+
+#pagebreak()
+
 // ==========================================
 // 1. THE ORGANIZATION
 // ==========================================
