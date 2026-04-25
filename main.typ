@@ -2205,3 +2205,24 @@ Please ensure you are logged into an organization-authorized UP Mail (`@up.edu.p
     target: "https://facebook.com/paultimothy.necasio" 
   )
 )
+
+#page(
+  fill: cursor-green, 
+  margin: 0pt, 
+  header: none, 
+  footer: none
+)[
+
+]
+
+#page(
+  fill: cursor-white, 
+  header: none, 
+  footer: none
+)[
+  #align(bottom + right)[
+    #set text(fill: cursor-green)
+    UP Association of Computer Science Majors \
+    All Rights Reserved 2026
+  ]
+]
