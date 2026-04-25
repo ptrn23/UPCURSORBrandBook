@@ -711,7 +711,7 @@ Committee lockups follow the exact same construction and clear-space rules as th
           #text(size: size-small, weight: weight-h1, fill: color-muted)[VERTICAL]
           #v(1fr)
           #align(center + horizon)[
-            #image("images/logos/UPCURSOR_MainLogo_AcademicAffairs_RecolorVertical_Transparent.svg", width: 70%)
+            #image("images/logos/UPCURSOR_MainLogo_AcademicAffairs_RecolorVertical_Transparent.svg", height: 30%)
           ]
           #v(1fr)
         ],
@@ -774,7 +774,7 @@ Committee lockups follow the exact same construction and clear-space rules as th
           #text(size: size-small, weight: weight-h1, fill: color-muted)[VERTICAL]
           #v(1fr)
           #align(center + horizon)[
-            #image("images/logos/UPCURSOR_MainLogo_Activities_RecolorVertical_Transparent.svg", width: 70%)
+            #image("images/logos/UPCURSOR_MainLogo_Activities_RecolorVertical_Transparent.svg", height: 30%)
           ]
           #v(1fr)
         ],
@@ -837,7 +837,7 @@ Committee lockups follow the exact same construction and clear-space rules as th
           #text(size: size-small, weight: weight-h1, fill: color-muted)[VERTICAL]
           #v(1fr)
           #align(center + horizon)[
-            #image("images/logos/UPCURSOR_MainLogo_ExternalAffairs_RecolorVertical_Transparent.svg", width: 70%)
+            #image("images/logos/UPCURSOR_MainLogo_ExternalAffairs_RecolorVertical_Transparent.svg", height: 30%)
           ]
           #v(1fr)
         ],
@@ -898,7 +898,7 @@ Committee lockups follow the exact same construction and clear-space rules as th
           #text(size: size-small, weight: weight-h1, fill: color-muted)[VERTICAL]
           #v(1fr)
           #align(center + horizon)[
-            #image("images/logos/UPCURSOR_MainLogo_Finance_RecolorVertical_Transparent.svg", width: 70%)
+            #image("images/logos/UPCURSOR_MainLogo_Finance_RecolorVertical_Transparent.svg", height: 30%)
           ]
           #v(1fr)
         ],
@@ -961,7 +961,7 @@ Committee lockups follow the exact same construction and clear-space rules as th
           #text(size: size-small, weight: weight-h1, fill: color-muted)[VERTICAL]
           #v(1fr)
           #align(center + horizon)[
-            #image("images/logos/UPCURSOR_MainLogo_Info_RecolorVertical_Transparent.svg", width: 70%)
+            #image("images/logos/UPCURSOR_MainLogo_Info_RecolorVertical_Transparent.svg", height: 20%)
           ]
           #v(1fr)
         ],
@@ -1024,7 +1024,7 @@ Committee lockups follow the exact same construction and clear-space rules as th
           #text(size: size-small, weight: weight-h1, fill: color-muted)[VERTICAL]
           #v(1fr)
           #align(center + horizon)[
-            #image("images/logos/UPCURSOR_MainLogo_Membership_RecolorVertical_Transparent.svg", width: 70%)
+            #image("images/logos/UPCURSOR_MainLogo_Membership_RecolorVertical_Transparent.svg", height: 30%)
           ]
           #v(1fr)
         ],
@@ -1087,7 +1087,7 @@ Committee lockups follow the exact same construction and clear-space rules as th
           #text(size: size-small, weight: weight-h1, fill: color-muted)[VERTICAL]
           #v(1fr)
           #align(center + horizon)[
-            #image("images/logos/UPCURSOR_MainLogo_Records_RecolorVertical_Transparent.svg", width: 70%)
+            #image("images/logos/UPCURSOR_MainLogo_Records_RecolorVertical_Transparent.svg", height: 30%)
           ]
           #v(1fr)
         ],
@@ -1150,7 +1150,7 @@ Committee lockups follow the exact same construction and clear-space rules as th
           #text(size: size-small, weight: weight-h1, fill: color-muted)[VERTICAL]
           #v(1fr)
           #align(center + horizon)[
-            #image("images/logos/UPCURSOR_MainLogo_Executive_RecolorVertical_Transparent.svg", width: 70%)
+            #image("images/logos/UPCURSOR_MainLogo_Executive_RecolorVertical_Transparent.svg", height: 30%)
           ]
           #v(1fr)
         ],
