@@ -2060,16 +2060,89 @@ Maintaining the integrity of the UP CURSOR brand is a collective effort. Should 
 
 == Quick Links
 
-=== Logo pack (AI, EPS, SVG, PNG)
+#v(1em)
 
-=== Font files (OTF/TTF/WOFF)
+Please ensure you are logged into an organization-authorized UP Mail (`@up.edu.ph`) to access these Google Drive directories. 
 
-=== Color swatch (ASE, ACO)
+#v(2em)
 
-=== Templates (INDD, PSD, PPTX, XD/Figma)
+#grid(
+  columns: (1fr, 1fr),
+  gutter: 2em,
+  row-gutter: 2em,
+  
+  asset-folder(
+    name: "The Essentials",
+    desc: "The most commonly used main logos in standard sizes (SVG and PNG) alongside the main UP CURSOR fonts.",
+    path: "~/[RESOURCES]/0_ESSENTIALS",
+    target: "https://drive.google.com/drive/folders/1K_5B_K3JxSHpwyvLOPaUn1YfDKj54PdW?usp=drive_link" 
+  ),
+  
+  asset-folder(
+    name: "Main Logos & Variants",
+    desc: "The complete collection of UP CURSOR master logos, including Green, Black, White, and Specialty variants.",
+    path: "~/[RESOURCES]/2_MAIN_LOGOS",
+    target: "https://drive.google.com/drive/folders/1ipyMEQ5CHukUS2Lyj2NzQV4e1wgtrzsx?usp=drive_link" 
+  ),
 
-=== Icon & photo library
+  asset-folder(
+    name: "Committee Sub-Brands",
+    desc: "All unique icons and recolored lockups for the seven UP CURSOR committees (also with the Executive Committee).",
+    path: "~/[RESOURCES]/3_COMMITTEES_LOGOS",
+    target: "https://drive.google.com/drive/folders/1WrFF7hCShd-IZs4WqynBeUTRjhgHM6kD?usp=drive_link" 
+  ),
 
+  asset-folder(
+    name: "Typography Files",
+    desc: "Raw, installable font files (.ttf) for Aleo, Montserrat, and Inter to use on a local machine.",
+    path: "~/[RESOURCES]/4_FONTS",
+    target: "https://drive.google.com/drive/folders/1wZDzjkBCSzxVcyUizaztflkzsSuE8NMU?usp=drive_link" 
+  )
+)
+
+#pagebreak()
+
+#v(1fr)
+
+#grid(
+  columns: (1fr, 1fr),
+  gutter: 2em,
+  row-gutter: 2em,
+
+  asset-folder(
+    name: "Document Templates",
+    desc: "Ready-to-use digital templates for official letterheads, presentations, and social media formats.",
+    path: "~/[RESOURCES]/5_TEMPLATES",
+    target: "https://drive.google.com/drive/folders/1qP9f_MsgRtZLp4HA5v2hXG4mYThRcbNq?usp=drive_link" 
+  ),
+  
+  asset-folder(
+    name: "Digital Assets",
+    desc: "Supplementary brand assets including official Zoom backgrounds and UI element exports.",
+    path: "~/[RESOURCES]/6_ASSETS",
+    target: "https://drive.google.com/drive/folders/1Q0dWW1a69wWyrXcTACkswAPHESRYXdBf?usp=drive_link" 
+  ),
+  
+  asset-folder(
+    name: "Legacy Archive",
+    desc: "A collection of previous logos and brand guidelines. Strictly for historical reference.",
+    path: "~/[RESOURCES]/99_ARCHIVE",
+    target: "https://drive.google.com/drive/folders/1rkgTRBcSRAdHX7oNCnvf2VSxACxn2Htg?usp=drive_link" 
+  ),
+  
+  asset-folder(
+    name: "Source Code (GitHub)",
+    desc: "The official Typst repository for this brand book. Submit Pull Requests here for any approved brand updates.",
+    path: "git clone git@github.com:ptrn23/UPCURSORBrandBook.git",
+    target: "https://github.com/ptrn23/UPCURSORBrandBook" 
+  )
+)
+
+#v(1fr)
+
+#pagebreak()
+
+#v(1fr)
 
 == Contact Info
 
