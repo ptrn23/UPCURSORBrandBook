@@ -10,7 +10,7 @@
 )[
   #block(width: 100%, height: 100%, inset: 4em)[
     #align(center + horizon)[
-      #image("images/logos/UPCURSOR_MainLogo_CURSORGreen_Transparent.svg", width: 45%)
+      #image("images/logos/UPCURSOR_MainLogo_CURSORGreen_Transparent.svg", width: 30%)
       
       #v(4em)
       
