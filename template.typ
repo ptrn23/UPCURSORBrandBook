@@ -388,3 +388,42 @@
     ]
   )
 }
+
+#let asset-folder(name: "", desc: "", path: "", target: "") = {
+  block(
+    width: 100%,
+    stroke: 1pt + rgb("#E5E7EB"),
+    radius: 6pt,
+    fill: white,
+    [
+      #block(
+        width: 100%, 
+        fill: rgb("#F6F7F8"), 
+        inset: (x: 1em, y: 0.6em),
+        radius: (top: 6pt),
+        stroke: (bottom: 1pt + rgb("#E5E7EB"))
+      )[
+        #text(font: "DejaVu Sans Mono", size: 9pt, weight: "bold", fill: cursor-green)[\> ]
+        #text(font: "DejaVu Sans Mono", size: 9pt, fill: color-muted)[#path]
+      ]
+      
+      #block(inset: 1.5em)[
+        #text(font: font-heading, weight: "extrabold", size: 14pt, fill: cursor-black)[#name]
+        #v(0.5em)
+        #text(font: font-body, size: 10pt, fill: color-muted)[#desc]
+        #v(1em)
+        
+        // Link Button
+        #link(target)[
+          #block(
+            fill: cursor-green,
+            radius: 4pt,
+            inset: (x: 1.5em, y: 0.8em)
+          )[
+            #text(font: font-body, weight: "bold", size: 10pt, fill: white)[Access Files \u{2192}]
+          ]
+        ]
+      ]
+    ]
+  )
+}
