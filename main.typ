@@ -2069,3 +2069,12 @@ Maintaining the integrity of the UP CURSOR brand is a collective effort. Should 
 === Templates (INDD, PSD, PPTX, XD/Figma)
 
 === Icon & photo library
+
+
+== Contact Info
+
+For repository access, technical questions regarding the Typst source code, or final PR approvals, please reach out to the Brand Book 2.0 Lead Architect:
+
+*Brand Book 2.0 Lead Architect* \
+Paul Timothy R. Necasio \
+#link("https://facebook.com/paultimothy.necasio")[facebook.com/paultimothy.necasio]
