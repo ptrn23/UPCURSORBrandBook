@@ -1487,14 +1487,14 @@ Committee lockups follow the exact same construction and clear-space rules as th
           bg: rgb("#F6F7F8"), 
           fg: cursor-green,       
           label: "Green on White",
-          ratio: "4.9:1",
+          ratio: "5.46:1",
           pass: true
         ),
         color-pairing(
           bg: rgb("#F6F7F8"), 
           fg: cursor-black,     
           label: "Black on White",
-          ratio: "15.8:1",
+          ratio: "16.87:1",
           pass: true
         ),
         
@@ -1502,14 +1502,14 @@ Committee lockups follow the exact same construction and clear-space rules as th
           bg: cursor-green,       
           fg: rgb("#F6F7F8"), 
           label: "White on Green",
-          ratio: "4.9:1",
+          ratio: "5.46:1",
           pass: true
         ),
         color-pairing(
           bg: cursor-green,       
           fg: cursor-black,     
           label: "Black on Green",
-          ratio: "3.2:1",
+          ratio: "3.08:1",
           pass: false
         ),
 
@@ -1517,14 +1517,14 @@ Committee lockups follow the exact same construction and clear-space rules as th
           bg: cursor-black,     
           fg: rgb("#F6F7F8"), 
           label: "White on Black",
-          ratio: "15.8:1",
+          ratio: "16.87:1",
           pass: true
         ),
         color-pairing(
           bg: cursor-black,     
           fg: cursor-green,       
           label: "Green on Black",
-          ratio: "3.2:1",
+          ratio: "3.08:1",
           pass: false
         )
       )
