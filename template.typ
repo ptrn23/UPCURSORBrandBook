@@ -384,7 +384,7 @@
     fill: cursor-white,
     stroke: (paint: color-muted, thickness: 1pt, dash: "dashed"),
     align(center + horizon)[
-      #text(fill: color-muted, weight: "bold", size: size-small)[#label]
+      #text(fill: color-muted, weight: "bold", size: size-h1)[#label]
     ]
   )
 }
