@@ -1937,6 +1937,44 @@ Committee lockups follow the exact same construction and clear-space rules as th
 
 #pagebreak()
 
+== Digital Media
+#v(2em)
+
+#grid(
+  columns: (1fr, 1fr),
+  gutter: 1em,
+  
+  [
+    #text(size: size-small, weight: "bold", fill: color-muted)[TWITTER & FACEBOOK]
+    #v(1em)
+    #wireframe(w: 324pt, h: 324pt, label: "1:1")
+  ],
+  [
+    #text(size: size-small, weight: "bold", fill: color-muted)[INSTAGRAM (SINGLE)]
+    #v(1em)
+    #wireframe(w: 243pt, h: 324pt, label: "3:4")
+  ]
+)
+
+#v(4em)
+
+#pagebreak()
+
+#v(1fr)
+#text(size: size-small, weight: "bold", fill: color-muted)[INSTAGRAM (FULL ROW)]
+#v(1em)
+
+#grid(
+  columns: (1fr, 1fr, 1fr),
+  gutter: 1em,
+  wireframe(w: 100%, h: 300pt, label: "3:4"),
+  wireframe(w: 100%, h: 300pt, label: "3:4"),
+  wireframe(w: 100%, h: 300pt, label: "3:4")
+)
+#v(1fr)
+
+#pagebreak()
+
 
 // ==========================================
 // 5. THE GOVERNANCE
