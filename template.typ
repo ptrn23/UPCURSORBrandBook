@@ -271,7 +271,7 @@
       columns: (5em, 1fr),
       row-gutter: 0.6em,
       
-      ..if pantone != none { (text(weight: weight-h1)[PMS], pantone) } else { () },
+      ..if pantone != none { (text(weight: weight-h1)[NAME], pantone) } else { () },
       text(weight: weight-h1)[CMYK], cmyk,
       text(weight: weight-h1)[RGB], rgb-val,
       text(weight: weight-h1)[HEX], hex
@@ -305,7 +305,7 @@
       columns: (5em, 1fr), 
       row-gutter: 0.5em,
       
-      ..if pantone != none { (text(weight: weight-h1)[PMS], pantone) } else { () },
+      ..if pantone != none { (text(weight: weight-h1)[NAME], pantone) } else { () },
       text(weight: weight-h1)[CMYK], cmyk,
       text(weight: weight-h1)[RGB], rgb-val,
       text(weight: weight-h1)[HEX], hex

@@ -185,7 +185,7 @@
   row-gutter: 3em,
 
   grid.cell(colspan: 2)[
-    == Core Values
+    == Values
 
     This organization seeks to help its members grow by instilling in them the core values it holds. The core values are what defines the organization and what shapes its members who, in turn, collectively and continuously shape the organization as well. UP CURSOR’s core values are as follows:
   ],
@@ -321,7 +321,7 @@
         ],
         
         block(fill: white, stroke: 1pt + cursor-white, width: 100%, height: 100%, inset: 1.5em, radius: 4pt)[
-          #text(size: size-small, weight: weight-h1, fill: color-muted)[HORIZONTAL]
+          #text(size: size-small, weight: weight-h1, fill: color-muted)[HORIZONTAL (SHORT)]
           #align(center + horizon)[
             #image("images/logos/UPCURSOR_HorizontalLogo_CURSORGreen_Transparent.svg", width: 80%)
           ]
@@ -329,7 +329,7 @@
         
         grid.cell(colspan: 2)[
           #block(fill: white, stroke: 1pt + cursor-white, width: 100%, height: 100%, inset: 1.5em, radius: 4pt)[
-            #text(size: size-small, weight: weight-h1, fill: color-muted)[HORIZONTAL (WIDE)]
+            #text(size: size-small, weight: weight-h1, fill: color-muted)[HORIZONTAL WIDE (FULL)]
             #align(center + horizon)[
               #image("images/logos/UPCURSOR_HorizontalLogoWide_CURSORGreen_Transparent.svg", width: 90%)
             ]
@@ -354,7 +354,7 @@
     
     Use the *CURSOR Green* variant on white or light gray backgrounds. Use the *CURSOR Black* variant exclusively for grayscale documents or cost-saving print materials. Use the *CURSOR White* (Reversed) variant on dark photography or brand-colored backgrounds.
     
-    In addition to our core colors, we maintain two specialty variants for specific organizational observances and stances. The *Pride* variant is officially approved for use during the month of June. The *System* variant is a stark, high-contrast reversed lockup. It is reserved strictly for periods of protest, institutional solidarity, or serious organizational statements where our standard vibrant colors would be inappropriate.
+    In addition to our core colors, we maintain two specialty variants for specific organizational observances and stances. The *Pride* variant is officially approved for use during the month of June. The *System* variant is a stark, high-contrast reversed lockup. It is reserved strictly for periods of protest, institutional solidarity, or serious organizational statements where our standard colors would be inappropriate.
   ],
   
   [
@@ -419,7 +419,7 @@
     
     To maintain structural harmony, the UP CURSOR logo relies on a strict internal measuring system based on its own typography.
     
-    *The Gap Rule:* The precise distance between the cursor emblem and the logotype, in both the horizontal and vertical lockups, is exactly equal to the width of the letter *“U”* in the logotype. 
+    The precise distance between the cursor emblem and the logotype, in both the horizontal and vertical lockups, is exactly equal to the width of the letter *“U”* in the logotype. 
     
     This ensures that the mark and the text always feel connected as a single unit, without crowding each other or drifting too far apart. Do not attempt to recreate this lockup manually; always use the provided master files.
   ],
@@ -461,7 +461,7 @@
     
     To ensure the logo maintains its maximum visual impact and legibility, it must always be surrounded by a minimum area of clear space. No other typography, graphics, or busy photographic elements may enter this exclusion zone.
     
-    *The Clear Space Rule:* Taking inspiration from our construction gap, the minimum external clear space is defined as *1U* around the entire perimeter of all logo variations. 
+    Taking inspiration from our construction gap, the minimum external clear space is defined as *1U* around the entire perimeter of all logo variations. 
     
     Whenever possible, allow for more than the minimum clear space to let the brand breathe.
   ],
@@ -628,7 +628,7 @@
 
 #pagebreak()
 
-=== Correct vs. Incorrect Usage
+=== Correct & Incorrect Usage
 #v(1em)
 
 #grid(
@@ -716,7 +716,7 @@
 
 #let committee_subbrands_desc = text()[Each of the seven committees within UP CURSOR operates with its own distinct sub-brand, anchored by its official committee color. 
 
-Committee lockups follow the exact same construction and clear-space rules as the primary brand. They utilize two distinct marks: a *Recolored* version of the main UP CURSOR cursor, and a *Unique* icon specific to that committee's function.]
+Committee lockups follow the exact same construction and clear-space rules as the primary brand. They utilize two distinct marks: a *Recolored* version of the main UP CURSOR logo, and a *Unique* icon specific to that committee's function.]
 
 #grid(
   columns: (1fr, 2fr),
@@ -1231,7 +1231,7 @@ Committee lockups follow the exact same construction and clear-space rules as th
 
     === Primary Colors
 
-    Our primary palette is the core of the UP CURSOR identity. CURSOR Green must be the dominant color in all official communications, supported by stark black and clean white to maintain a high-contrast, modern aesthetic.
+    Our primary palette is the core of the UP CURSOR identity. CURSOR Green must be the dominant color in all official communications, supported by stark CURSOR Black and clean CURSOR White to maintain a high-contrast, modern aesthetic.
   ],
   [
     #block(height: 100%)[
@@ -1246,7 +1246,7 @@ Committee lockups follow the exact same construction and clear-space rules as th
           text-c: white,
           hex: "#10743C",
           rgb-val: "16 116 60",
-          cmyk: "88 30 98 19 (or 86% 0% 48% 55%)",
+          cmyk: "86 0 48 55",
           pantone: "349 CP"
         ),
         color-swatch(
@@ -1255,7 +1255,7 @@ Committee lockups follow the exact same construction and clear-space rules as th
           text-c: white,
           hex: "#161616",
           rgb-val: "22 22 22",
-          cmyk: "73 67 66 83",
+          cmyk: "0 0 0 91",
           pantone: "Black 6 C"
         ),
         color-swatch(
@@ -1281,7 +1281,7 @@ Committee lockups follow the exact same construction and clear-space rules as th
     #v(1fr)
     === Committee Colors
 
-    Our secondary palette consists of the official committee colors. These colors represent the diverse divisions within UP CURSOR. They should be used primarily for committee-specific materials, or as vibrant accents to support CURSOR Green in complex layouts and data visualizations.
+    Our secondary palette consists of the official committee colors. These colors represent the diverse divisions within UP CURSOR. They should be used primarily for committee-specific materials, or as vibrant accents to support CURSOR Green.
   ],
   
   [
@@ -1297,7 +1297,7 @@ Committee lockups follow the exact same construction and clear-space rules as th
           text-c: white,
           hex: "#0F4C82",
           rgb-val: "15 76 130",
-          cmyk: "88 41 0 49",
+          cmyk: "88 42 0 49",
           pantone: "Classic Blue"
         ),
         color-swatch-compact(
@@ -1473,7 +1473,9 @@ Committee lockups follow the exact same construction and clear-space rules as th
     #v(1fr)
     === Color Pairing & Accessibility
 
-    Accessibility is not an afterthought; it is a core design requirement. All background and foreground color combinations must meet the WCAG 2.1 AA standard for contrast. Normal text requires a minimum contrast ratio of *4.5:1*, while large text (like H1 and H2 headers) requires a minimum of *3:1*. Never place CURSOR Green on dark backgrounds (like Black or Exec Gold), as the colors will "vibrate" and cause eye strain. When in doubt, default to high-contrast black or white text.
+    All background and foreground color combinations must meet the WCAG 2.1 AA standard for contrast. Normal text requires a minimum contrast ratio of *4.5:1*, while large text (like H1 and H2 headers) requires a minimum of *3:1*. 
+    
+    When in doubt, default to high-contrast black or white text.
   ],
   
   [
@@ -1574,7 +1576,7 @@ Committee lockups follow the exact same construction and clear-space rules as th
   font-family: font-title, 
   weights: ("Light", "Regular", "Bold",), 
   description: [
-    *Aleo* is a contemporary slab serif typeface. We use Aleo Bold exclusively for our Level 1 Headings and major publication titles. Its commanding presence provides a grounded, collegiate authority to our brand. The typeface features semi-rounded details and a sleek structure, giving it a strong personality while maintaining high readability.
+    *Aleo* is a contemporary slab serif typeface. We use Aleo Bold exclusively for our Level 1 Headings and major publication titles. Its presence provides a grounded, collegiate authority to our brand. The typeface features semi-rounded details and a sleek structure, giving it a strong personality while maintaining high readability.
   ],
   notes: [
     Aleo is available via Google Fonts under the SIL Open Font License.
@@ -1590,7 +1592,7 @@ Committee lockups follow the exact same construction and clear-space rules as th
     *Montserrat* is our geometric sans-serif workhorse. It is used for section headers, kickers, and digital sub-titles. Its wide proportions make it highly legible even at smaller, tracked-out sizes. Its wide proportions and urban character make it highly versatile for both web headers and body text.
   ],
   notes: [
-    Montserrat is the primary display font for digital outputs and social media.
+    Montserrat is the primary display font for organization-focused digital outputs and social media.
   ]
 )
 
@@ -1775,9 +1777,9 @@ Committee lockups follow the exact same construction and clear-space rules as th
     
     === Web Font Stack
     
-    For developers building UP CURSOR websites, applications, or digital products, always declare proper fallback fonts in your CSS. 
+    For developers building UP CURSOR websites, applications, or digital products, embed the official Google Fonts using the HTML `<link>` method for optimal load times.
     
-    This ensures cross-browser compatibility and protects the brand's visual structure even if Google Fonts fail to load.
+    Always declare proper fallback fonts in your CSS to protect the brand's visual structure even if external connections fail.
   ],
   [
     #block(
@@ -1785,33 +1787,36 @@ Committee lockups follow the exact same construction and clear-space rules as th
       stroke: 1pt + rgb("#E5E7EB"), 
       inset: 2.5em,
       radius: 4pt, 
-      width: 100%
+      width: 100%,
+      height: 100%
     )[
-      #set text(font: "DejaVu Sans Mono", size: 11pt, fill: cursor-black)
+      #set text(font: "DejaVu Sans Mono", size: 10pt, fill: cursor-black)
       #set par(leading: 0.8em)
       
+      #text(fill: rgb("#828282"))[``] \
       #text(fill: rgb("#828282"))[`/* 1. Import UP CURSOR Brand Fonts */`] \
-      #text(fill: rgb("#531D7D"))[`@import`] `url('https://fonts.googleapis.com/css2?family=Aleo:wght@700...');` \
+      
+      #text(fill: rgb("#0F4C82"))[`<link`] #text(fill: rgb("#D93838"))[`rel=`]`"preconnect"` #text(fill: rgb("#D93838"))[`href=`]`"https://fonts.googleapis.com"`#text(fill: rgb("#0F4C82"))[`>`] \
+      #text(fill: rgb("#0F4C82"))[`<link`] #text(fill: rgb("#D93838"))[`rel=`]`"preconnect"` #text(fill: rgb("#D93838"))[`href=`]`"https://fonts.gstatic.com"` `crossorigin`#text(fill: rgb("#0F4C82"))[`>`] \
+      #text(fill: rgb("#0F4C82"))[`<link`] #text(fill: rgb("#D93838"))[`href=`]`"https://fonts.googleapis.com/css2?`\
+      `family=Aleo:ital,wght@0,100..900;1,100..900&`\
+      `family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&`\
+      `family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"` \
+      #text(fill: rgb("#D93838"))[`rel=`]`"stylesheet"`#text(fill: rgb("#0F4C82"))[`>`] \
       \
-      #text(fill: rgb("#828282"))[`/* 2. Global Custom Properties */`] \
+      #text(fill: rgb("#828282"))[``] \
+      #text(fill: rgb("#828282"))[`/* 2. Global Custom Properties (CSS) */`] \
       #text(fill: rgb("#D93838"))[`:root`] `{` \
       `  `#text(fill: rgb("#0F4C82"))[`--font-title`]: `'Aleo', Rockwell, serif;` \
       `  `#text(fill: rgb("#0F4C82"))[`--font-heading`]: `'Montserrat', 'Century Gothic', sans-serif;` \
       `  `#text(fill: rgb("#0F4C82"))[`--font-body`]: `'Inter', Arial, sans-serif;` \
       `}` \
       \
+      #text(fill: rgb("#828282"))[``] \
       #text(fill: rgb("#828282"))[`/* 3. Base Typography Application */`] \
       #text(fill: rgb("#D93838"))[`body`] `{` \
       `  `#text(fill: rgb("#0F4C82"))[`font-family`]: `var(--font-body);` \
       `  `#text(fill: rgb("#0F4C82"))[`color`]: `#161616;` \
-      `}` \
-      \
-      #text(fill: rgb("#D93838"))[`h1, h2, h3, h4`] `{` \
-      `  `#text(fill: rgb("#0F4C82"))[`font-family`]: `var(--font-heading);` \
-      `}` \
-      \
-      #text(fill: rgb("#D93838"))[`.main-title`] `{` \
-      `  `#text(fill: rgb("#0F4C82"))[`font-family`]: `var(--font-title);` \
       `}`
     ]
   ]
@@ -1819,7 +1824,7 @@ Committee lockups follow the exact same construction and clear-space rules as th
 
 #v(4em)
 
-=== Typography Do's and Don'ts
+=== Correct & Incorrect Usage
 #v(1em)
 
 #grid(
@@ -2083,7 +2088,7 @@ Committee lockups follow the exact same construction and clear-space rules as th
 
   For the sake of consistency, when referring to our organization using its abbreviation, *"UP CURSOR"*, kindly keep it in all capital letters. The full name of the organization (UP Association of Computer Science Majors) need not be written in all caps.
 
-For any questions or concerns regarding external usage, feel free to contact our designated Information and Public Relations Committee representative. We thank you for your time and consideration.
+For any questions or concerns regarding external usage, feel free to contact our designated Information and Public Relations Committee representative.
 
 #v(2em)
 
