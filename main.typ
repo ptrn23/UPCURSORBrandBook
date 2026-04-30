@@ -393,7 +393,7 @@
         block(fill: white, stroke: 1pt + cursor-white, width: 100%, height: 100%, inset: 1.5em, radius: 4pt)[
           #text(size: size-small, weight: weight-h1, fill: color-muted)[PRIDE]
           #align(center + horizon)[
-            #image("images/logos/UPCURSOR_MainLogo_Pride_Transparent.svg", height: 70%)
+            #image("images/logos/UPCURSOR_MainLogo_CURSORPride_Transparent.svg", height: 70%)
           ]
         ],
         block(fill: white, stroke: 1pt + cursor-white, width: 100%, height: 100%, inset: 1.5em, radius: 4pt)[
