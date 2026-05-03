@@ -1917,7 +1917,11 @@ Committee lockups follow the exact same construction and clear-space rules as th
     
     == Why CURSOR not cursor? <lowercase>
 
-    UP CURSOR, the name we’re most famous for, has been our moniker for the longest time. And aside from the fact that cursor is a computer term and it can be spelled out in our name (UP Association of CompUteR Science MajORs), it is important to spell it in all caps, as we are not just a simple cursor. Though we take inspiration from it, we want to differentiate ourselves from the symbol that helps us navigate in our computers. We are an organization with values and purpose. For that, our name deserves to be capitalized.
+    While "CURSOR" might seem like a standard computer science reference today, its true origin actually stems from an inside joke. During the organization's founding year in 1983, the sci-fi television series *Automan (1983-1984)* featured a floating, glowing sidekick named "Cursor." The phrase "Cursor! Cursor!" quickly became a popular inside joke among the members, eventually sticking as the organization's moniker.
+
+    It wasn't until the late 90s to early 2000s that a "forced" backronym was formalized, linking the moniker to our full name (UP Association of #text(weight: "bold")[C]omp#text(weight: "bold")[U]te#text(weight: "bold")[R] #text(weight: "bold")[S]cience Maj#text(weight: "bold")[OR]s). 
+
+    Today, it is strictly spelled in ALL CAPS. We do this to differentiate ourselves from the standard computer pointer. We are an organization with a rich history, values, and purpose. For that, our name deserves to be capitalized.
 
     #v(1fr)
 
