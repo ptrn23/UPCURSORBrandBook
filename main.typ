@@ -17,7 +17,7 @@
 
 #pagebreak()
 
-#v(12em)
+#v(17em)
 
 #text(font: font-heading, size: size-h2, fill: cursor-green, weight: weight-h2)[TABLE OF CONTENTS]
 
