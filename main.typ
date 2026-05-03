@@ -286,6 +286,41 @@
 
 #pagebreak()
 
+#v(3em)
+== Timeline
+
+#v(3em)
+
+#box(width: 100%, height: 250pt)[
+  #place(bottom + left, dy: -34.5pt)[
+    #line(length: 100%, stroke: 1.5pt + cursor-black)
+  ]
+  #place(bottom + left, dy: -28.5pt)[
+    #line(length: 12pt, angle: 90deg, stroke: 1.5pt + cursor-black)
+  ]
+  #place(bottom + right, dx: 3pt, dy: -29.5pt)[
+    #curve(
+      fill: cursor-black,
+      curve.move((0pt, 0pt)),
+      curve.line((-12pt, 5pt)),
+      curve.line((-12pt, -5pt)),
+      curve.close()
+    )
+  ]
+
+  #grid(
+    columns: (0.5fr, 0.75fr, 1fr, 1.5fr), 
+    align: bottom,
+    
+    timeline-node("images/previous/logo_1983.png", 60%, "1983"),
+    timeline-node("images/previous/logo_1990.svg", 65%, "1990"),
+    timeline-node("images/previous/logo_2000.png", 70%, "2000"),
+    timeline-node("images/logos/UPCURSOR_MainLogo_CURSORGreen_Transparent.svg", 95%, "2017")
+  )
+]
+
+#pagebreak()
+
 #grid(
   columns: (1fr, 2fr),
   gutter: 10em,

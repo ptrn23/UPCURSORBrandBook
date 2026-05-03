@@ -1,5 +1,5 @@
 // ==========================================
-// THEME VARIABLES (UP CURSOR Brand Book 2.0)
+// THEME VARIABLES
 // ==========================================
 
 #let font-title = "Aleo"
@@ -414,7 +414,6 @@
         #text(font: font-body, size: 10pt, fill: color-muted)[#desc]
         #v(1em)
         
-        // Link Button
         #link(target)[
           #block(
             fill: cursor-green,
@@ -427,4 +426,16 @@
       ]
     ]
   )
+}
+
+#let timeline-node(img-path, img-width, year) = {
+  align(center + bottom)[
+    #image(img-path, width: img-width)
+    #v(15pt)
+    #circle(radius: 4.5pt, fill: cursor-green, stroke: 2pt + white)
+    #v(3pt)
+    #box(height: 15pt)[
+      #text(font: font-body, weight: "bold", size: 12pt, fill: cursor-black)[#year]
+    ]
+  ]
 }
