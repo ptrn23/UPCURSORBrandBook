@@ -2133,7 +2133,7 @@ Maintaining the integrity of the UP CURSOR brand is a collective effort. Should 
 + The Information and Public Relations Head will formally raise the proposal during an Executive Committee meeting to be reviewed and decided upon.
 + If the Executive Committee determines that the proposed change is significant, an org-wide consensus will be required before proceeding. Otherwise, the Executive Committee can approve minor adjustments directly.
 + Once approved, the necessary adjustments will be executed. This includes updating the official Brand Book source code in the Typst GitHub repository.
-+ The current Information and Public Relations Committee Head will submit a Pull Request (PR) to the repository and contact the Brand Book 2.0 Lead Architect. The Lead Architect will review the code for formatting and structural integrity before officially approving and merging the update into the master branch.
++ The current Information and Public Relations Committee Head will submit a Pull Request (PR) to the repository and contact the Brand Book 2.0 Lead Developer. The Lead Developer will review the code for formatting and structural integrity before officially approving and merging the update into the master branch.
 
 #v(2em)
 
@@ -2237,8 +2237,8 @@ Please ensure you are logged into an organization-authorized UP Mail (`@up.edu.p
   row-gutter: 2em,
 
   asset-folder(
-    name: "Brand Book 2.0 Lead Architect",
-    desc: "For repository access, technical questions regarding the Typst source code, or final PR approvals, please reach out to Paul Timothy Necasio, the Brand Book 2.0 Lead Architect.",
+    name: "Brand Book 2.0 Lead Developer",
+    desc: "For repository access, technical questions regarding the Typst source code, or final PR approvals, please reach out to Paul Timothy Necasio, the Brand Book 2.0 Lead Developer.",
     path: "facebook.com/paultimothy.necasio",
     target: "https://facebook.com/paultimothy.necasio" 
   )
